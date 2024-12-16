@@ -24,6 +24,8 @@ To ensure reproducibility, the code was developed and tested in the following en
 - **Python version**: 3.9.19  
 - **Conda version**: 24.5.0  
 
+The code was tested on **Ubuntu 24.04 LTS**. Compatibility with other operating systems is not guaranteed but should generally work.
+
 Python dependencies are managed through a conda environment.
 
 ---
@@ -75,7 +77,8 @@ Python simulation scripts are parallelized:
 - **Figure 9**: Run the following scripts in order:
   1. `figure9_simulation_CV_MR_constitutive.py`
   2. `figure9_simulation_CV_MR_regulated.py`
-  3. `figure9_plotting.py`
+  3. `figure9_simulation_MR_stochastic_decay.py`
+  4. `figure9_plotting.py`
   - Figure is saved in the `simulation_results/` folder.
 - **Figure 10**: `mathematica_notebooks/figure10.nb`
 ### **Supplementary Figures**
