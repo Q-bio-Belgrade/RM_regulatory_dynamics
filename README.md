@@ -1,6 +1,6 @@
 # RM Regulatory Dynamics
 
-This repository contains the Mathematica and Python code used to reproduce the results presented in the paper:
+This repository contains the Mathematica and Python codes used to reproduce the results presented in the paper:
 
 **Nonlinear Regulatory Dynamics of Bacterial Restriction-Modification Systems Modulates Horizontal Gene Transfer Susceptibility**
 
@@ -32,11 +32,11 @@ Python dependencies are managed through a conda environment.
 
 ### **Mathematica Notebooks**
 - Located in the `mathematica_notebooks/` folder.
-- Each notebook corresponds to a specific figure in the paper. For example, `figure1.nb` reproduces Figure 1.
+- Each notebook corresponds to a specific figure in the paper. For example, `Figure3.nb` reproduces Figure 3.
 - Notebooks include code, parameters, and results together for clarity.
 
 ### **Python Simulations**
-- Python code, data, and results are in the `python_simulations/` folder.
+- Python codes, data, and results are in the `python_simulations/` folder.
 - Scripts are located in the `simulation_scripts/` subfolder. Ensure scripts are executable:
   ```bash
   chmod u+x <script_name>
@@ -66,12 +66,12 @@ Python simulation scripts are parallelized:
 ## Reproducing Figures
 
 ### **Figures in the Main Text**
-- **Figure 3**: `mathematica_notebooks/figure3.nb`
-- **Figure 4**: `mathematica_notebooks/figure4.nb`
-- **Figure 5**: `mathematica_notebooks/figure5.nb`
-- **Figure 6**: `mathematica_notebooks/figure6_and_S2.nb`
-- **Figure 7**: `mathematica_notebooks/figure7.nb`
-- **Figure 8**: `mathematica_notebooks/figure8.nb`
+- **Figure 3**: `mathematica_notebooks/Figure3.nb`
+- **Figure 4**: `mathematica_notebooks/Figure4.nb`
+- **Figure 5**: `mathematica_notebooks/Figure5.nb`
+- **Figure 6**: `mathematica_notebooks/Figure6_and_S2.nb`
+- **Figure 7**: `mathematica_notebooks/Figure7.nb`
+- **Figure 8**: `mathematica_notebooks/Figure8.nb`
 - **Figure 9**: Run the following scripts in order:
   1. `figure9_simulation_CV_MR_constitutive.py`
   2. `figure9_simulation_CV_MR_regulated.py`
@@ -87,9 +87,9 @@ Python simulation scripts are parallelized:
 ---
 
 ## License
-This repository is licensed under MIT license. For more details, see the `LICENSE` file.
+This repository is licensed under the MIT license. For more details, see the `LICENSE` file.
 
 ---
 
 ## Citation
-If you use this code in your work, please cite the paper above.
+Please cite the paper above if you use this code in your work.
